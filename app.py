@@ -60,7 +60,7 @@ def vod():
             ali_token = ""
 
         if not douban_id:
-            douban_id = ""
+            douban_id = "247283094"
             douban_filter["class"].pop(0)
             douban_filter["filters"].pop("interests")
 
